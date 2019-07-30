@@ -2,3 +2,18 @@
   border: solid black 1px;
   height: 500px;
 }
+header {
+  background: gray;
+  width: 100%;
+  height: 200px;
+}
+
+#headerMiddle {
+  background: #f72210;
+  height: 65px;
+  width: 400px;
+}
+
+#headerMiddle svg {
+  fill: white;
+}
