@@ -1,19 +1,133 @@
-.container-fluid {
-  border: solid black 1px;
-  height: 500px;
+body * {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
 }
-header {
-  background: gray;
+
+.container-fluid {
+  height: 500px;
   width: 100%;
-  height: 200px;
+}
+
+header {
+  position: relative;
+  background: #f72210;
+  width: 88%;
+  height: 94px;
+}
+
+.wrapperHeader {
+}
+
+#headerLeft {
+  width: 25%;
+  height: 94px;
+}
+
+#headerLeft date {
+  margin-left: 30px;
+  margin-bottom: 20px;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+  font-size: 15px;
 }
 
 #headerMiddle {
-  background: #f72210;
-  height: 65px;
-  width: 400px;
+  height: 94px;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 #headerMiddle svg {
+  height: 60px;
+  width: 695px;
   fill: white;
+}
+
+#headerRight {
+  width: 25%;
+  height: 94px;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 5px;
+}
+
+#headerRight a {
+  text-decoration: none;
+  padding: 6px 12px;
+  font: bold 18px/14px "Roboto Condensed",sans-serif;
+  height: max-content;
+  margin-bottom: 10px;
+}
+
+#navSignIn {
+  color: white;
+}
+
+#navSubscribe {
+  background: white;
+  color: red;
+  margin-right: 15px;
+}
+
+#whiteNav {
+  border-bottom: solid #f4f5f6 2px;
+}
+
+#whiteNav::before {
+  position: absolute;
+  top: 94px;
+  right: 0;
+  content: "";
+  display: block;
+  width: 88px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
+#whiteNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#whiteNav li {
+  padding: 16px 0;
+}
+
+#whiteNav a {
+  text-decoration: none;
+  color: black;
+  padding: 0 31px;
+  border-right: solid #d9d9d9 1px;
+  font-size: 21px;
+  line-height: 20px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif
+}
+
+#navSearch {
+  position: relative;
+  padding-top: 10px;
+  margin-left: 15px;
+  height: max-content;
+}
+
+#navSearch label {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg) center/contain no-repeat white;
+  width: 20px;
+  height: 20px;
+}
+
+#navSearch input {
+  width: 80px;
+  height: 33px;
+  font-size: 18px;
+  border: none;
+  color: rgba(0, 0, 0, .55);
 }
