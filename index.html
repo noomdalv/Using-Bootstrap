@@ -10,11 +10,10 @@
   <title>Using Bootstrap</title>
 </head>
 
-<body class="container-fluid d-flex justify-content-center">
+<body>
+  <div id="wrapper" class="container-fluid justify-content-center">
+    <header>
 
-
-  <header>
-    <div class="wrapperHeader">
 
       <nav id="redNav" class="d-flex flex-row">
         <div id="headerLeft" class="d-flex justify-content-start">
@@ -39,7 +38,7 @@
       </nav>
 
       <nav id="whiteNav" class="d-flex flex-row">
-        <ul class="d-flex">
+        <ul class="d-flex flex-wrap">
           <li><a href="#">U.S</a></li>
           <li><a href="#">World</a></li>
           <li><a href="#">Business</a></li>
@@ -57,16 +56,171 @@
         </div>
       </nav>
 
-    </div>
-  </header>
+
+    </header>
 
 
-  <main>
+    <main>
+      <section id="firstSection">
+        <div class="d-flex">
+          <div id="featuredColumn" class="col">
+            <h6>FEATURED STORIES</h6>
 
-  </main>
+            <article>
+              <img alt="The Newsweek Momentum Awards 2019" title="The Newsweek Momentum Awards 2019" class="lazysize lazyloaded"
+                src="https://d.newsweek.com/en/full/1511786/newsweek-momentum-awards-2019.png?w=397&h=265&q=90&f=b5bee11f8b144487ff291880f4d318be">
+              <h3><a href="#">The Newsweek Momentum Awards</a></h3>
+              <p>The Newsweek Momentum Awards will recognize five individuals around the globe, as well as one city, which will be chosen as the "smartest city in the world."</p>
+            </article>
 
-  <footer>
-  </footer>
+            <article>
+              <img alt="china military navy decoy exercise" title="china military navy decoy exercise" class="lazysize lazyloaded"
+                src="https://d.newsweek.com/en/full/1521304/china-military-navy-decoy-exercise.jpg?w=397&h=265&q=90&f=c8f5c1617c35aa60cfe9150c2a6dbc74">
+              <h3><a href="#">China May Win Fight 'Before America Can Respond' in Pacific, Report Says</a></h3>
+              <p>In the event of a "limited war," China's "aim would be to strike first to secure longstanding political goals or strategically valuable objectives before the United States can do anything to stop it," a report found.</p>
+            </article>
+
+            <article>
+              <img alt="migrant children separated from parents cayuga center" title="migrant children separated from parents cayuga center" class="lazysize lazyloaded"
+                src="https://d.newsweek.com/en/full/1520820/migrant-children-separated-parents-cayuga-center.jpg?w=397&amp;h=265&amp;q=90&amp;f=eeadfb056271798bea3a934aaea6e98d">
+              <h3><a href="#">Migrant Lawsuits Over Family Separations May Cost Taxpayers $200 Million</a></h3>
+              <p>An attorney at one of the firms representing families told the AP that this was just "the tip of the iceberg."</p>
+            </article>
+
+            <article>
+              <img src="https://d.newsweek.com/en/full/1521131/donald-trump-sean-hannity-fox-news-vegas.jpg?w=397&amp;h=265&amp;q=90&amp;f=f258609c806997e8abf47d4ab0fc0fb3" alt="donald trump sean hannity fox news vegas"
+                title="donald trump sean hannity fox news vegas" class="lazysize lazyloaded">
+              <h3><a href="#">Trump Says Fox News Is 'Making a Big Mistake' With 2020 Poll Results</a></h3>
+              <p>"There's something going on at Fox, I'll tell you right now. And I'm not happy with it," President Donald Trump told reporters on Sunday.</p>
+            </article>
+
+
+          </div>
+
+          <div id="topStoryColumn" class="col-5">
+            <article>
+              <h6>TOP STORY</h6>
+              <img data-src="https://d.newsweek.com/en/full/1521087/donald-trump.jpg?w=591&amp;h=364&amp;q=90&amp;f=50923f8798e1426bf01a8f023e4e0461" alt="Donald Trump" title="Donald Trump" width="591" height="364"
+                class="lazysize lazyloaded" src="https://d.newsweek.com/en/full/1521087/donald-trump.jpg?w=591&amp;h=364&amp;q=90&amp;f=50923f8798e1426bf01a8f023e4e0461">
+              <h3><a href="#">Huawei Reprieve Unlikely as Trump Rejects Business Over 'National Security'</a></h3>
+              <p>"It looks like we are not going to do business," President Donald Trump said, adding to confusion surrounding the future of the Chinese tech giant, which was placed on a U.S. trade blacklist in May.</p>
+            </article>
+
+            <article id="cultureTravel">
+              <h6>CULTURE & TRAVEL</h6>
+              <div class="d-flex">
+
+                <div class="col">
+                  <img src="https://d.newsweek.com/en/full/1521341/wekiwa-springs-orlando.jpg?w=397&h=265&f=12a5137be8dcf95525eb9e97648cbab8" alt="ct1">
+                  <h5>Orlando, Florida: Beyond Theme Parks</h5>
+                  <p>This central Florida town isn't just Disney World - it is a cultural hub with great food and nature and is a sports fans dream.</p>
+                  <a href="#">Orlando</a>
+                </div>
+
+                <div class="col">
+                  <img src="https://d.newsweek.com/en/full/1521405/rosie-wiltbank.jpg?w=397&h=265&f=5414295c6cd8c57bf0b6496fc6e51744" alt="ct2">
+                  <h5>Holding Court: Bringing Back the Rodeo Queen</h5>
+                  <p>The heyday of the Rodeo Queen was the mid-80s, but one queen-making coach says the competition is stampeding back.</p>
+                  <a href="#">Pageant</a>
+                </div>
+              </div>
+
+              <div class="d-flex">
+                <div class="col">
+                  <img src="https://d.newsweek.com/en/full/1521393/manarola-italy.jpg?w=397&h=265&f=973c36094d4af5d44c31d600958bc2c0" alt="ct3">
+                  <h5>Eat Your Way Across Italy</h5>
+                  <p>The best locations to indulge in Italian cuisine throughout the country</p>
+                  <a href="#">Italy</a>
+                </div>
+
+                <div class="col">
+                  <img src="https://d.newsweek.com/en/full/1521214/french-bakery-du-pain-et-des-idees.jpg?w=397&h=265&f=205b1ef90c4556ee6d2970fd35d948e7" alt="ct4">
+                  <h5>7 Best Bakeries in Paris</h5>
+                  <p>Paris is the place to be a glutton for all things gluten! In a city full of bakeries and patisseries, here's the best.</p>
+                  <a href="#">Paris</a>
+                </div>
+              </div>
+            </article>
+
+          </div>
+
+          <div id="opinionColumn" class="col">
+            <h6>OPINION</h6>
+
+            <article class="d-flex">
+              <div class="opinionLeft d-flex align-items-center">
+                <img data-src="https://d.newsweek.com/en/full/1521028/alex-kack.png?w=63&amp;h=63&amp;f=eca075e54930cf66480014c11a5db383" alt="Alex Kack" title="Alex Kack" width="63" height="63" class="lazyloaded"
+                  src="https://d.newsweek.com/en/full/1521028/alex-kack.png?w=63&amp;h=63&amp;f=eca075e54930cf66480014c11a5db383">
+              </div>
+              <div class="opinionRight">
+                <h4><a href="/im-greenshirtguy-heres-why-i-laughed-those-pro-trump-hecklers-opinion-1454922">I'm #GreenShirtGuy, and Here's Why I Laughed at Those Pro-Trump Hecklers </a></h4>
+                <p>BY ALEX KACK</p>
+              </div>
+            </article>
+
+            <article class="d-flex">
+              <div class="opinionLeft d-flex align-items-center">
+                <img data-src="https://d.newsweek.com/en/full/1521122/amardeep-singh.png?w=63&amp;h=63&amp;f=b148ba4c5da659e64ae5c85db8125d35" alt="Amardeep Singh" title="Amardeep Singh" width="63" height="63" class="lazyloaded"
+                  src="https://d.newsweek.com/en/full/1521122/amardeep-singh.png?w=63&amp;h=63&amp;f=b148ba4c5da659e64ae5c85db8125d35">
+              </div>
+              <div class="opinionRight">
+                <h4><a href="/profiling-muslims-was-wrong-after-9-11-itd-wrong-use-it-fight-white-supremacy-now-opinion-1454982">It'd Still Be Wrong to Use Profiling Now to Fight White Supremacy</a></h4>
+                <p>BY AMARDEEP SINGH</p>
+              </div>
+            </article>
+
+            <article class="d-flex">
+              <div class="opinionLeft d-flex align-items-center">
+                <img data-src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&amp;h=63&amp;f=dadcbab6cd325ee70d1bfe4df5a01410" alt="Charlie Kirk" title="Charlie Kirk" width="63" height="63" class="lazyloaded"
+                  src="https://d.newsweek.com/en/full/1506965/charlie-kirk.png?w=63&amp;h=63&amp;f=dadcbab6cd325ee70d1bfe4df5a01410">
+              </div>
+              <div class="opinionRight">
+                <h4><a href="/sleeper-cell-socialists-could-steal-2020-election-finish-off-america-we-know-it-opinion-1455023">A Sleeper Cell of Socialists Could Steal the 2020 Election</a></h4>
+                <p>BY CHARLIE KIRK</p>
+              </div>
+            </article>
+
+            <article class="d-flex">
+              <div class="opinionLeft d-flex align-items-center">
+                <img data-src="https://d.newsweek.com/en/full/108710/phyllis-bennis.png?w=63&amp;h=63&amp;f=bf2217ca9e8dd9c83dca98f15bb51733" alt="Phyllis Bennis" title="Phyllis Bennis" width="63" height="63" class="lazyloaded"
+                  src="https://d.newsweek.com/en/full/108710/phyllis-bennis.png?w=63&amp;h=63&amp;f=bf2217ca9e8dd9c83dca98f15bb51733">
+              </div>
+              <div class="opinionRight">
+                <h4><a href="/israels-ban-tlaib-omar-shows-netanyahu-trumps-contempt-democracy-opinion-1454818">Israel's Ban on Tlaib and Omar Shows Contempt for Democracy</a></h4>
+                <p>BY PHYLLIS BENNIS</p>
+              </div>
+            </article>
+
+            <article class="d-flex">
+              <div class="opinionLeft d-flex align-items-center">
+                <img data-src="https://d.newsweek.com/en/full/1520638/ana-lucia-araujo.png?w=63&amp;h=63&amp;f=c16018c7da979ee3bd7c5111f975cb56" alt="Ana Lucia Araujo " title="Ana Lucia Araujo " width="63" height="63" class="lazyloaded"
+                  src="https://d.newsweek.com/en/full/1520638/ana-lucia-araujo.png?w=63&amp;h=63&amp;f=c16018c7da979ee3bd7c5111f975cb56">
+              </div>
+              <div class="opinionRight">
+                <h4><a href="/no-confederate-monuments-dont-preserve-history-they-manipulate-it-opinion-1454650">No, Confederate Monuments Don't Preserve History. They Manipulate It </a></h4>
+                <p>BY ANA LUCIA ARAUJO</p>
+              </div>
+            </article>
+
+            <article class="d-flex">
+              <div class="opinionLeft d-flex align-items-center">
+                <img data-src="https://d.newsweek.com/en/full/1520829/omolara-thomas-uwemedimo.png?w=63&amp;h=63&amp;f=28c188b42669dd957b05652bcd637feb" alt="Omolara Thomas Uwemedimo" title="Omolara Thomas Uwemedimo" width="63" height="63"
+                  class="lazyloaded" src="https://d.newsweek.com/en/full/1520829/omolara-thomas-uwemedimo.png?w=63&amp;h=63&amp;f=28c188b42669dd957b05652bcd637feb">
+              </div>
+              <div class="opinionRight">
+                <h4><a href="/heres-my-medical-opinion-public-charge-rule-threatens-health-every-single-person-america-1454744">The Public Charge Rule Threatens the Health of Every Person in America</a></h4>
+                <p>BY OMOLARA THOMAS UWEMEDIMO</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+    </footer>
+
+  </div>
 
 </body>
 
