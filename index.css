@@ -177,16 +177,6 @@ main {
   border: solid black 1px;
 }
 
-.opinionLeft {
-  width: 18%;
-}
-
-.opinionRight {
-  margin-top: 15px;
-  margin-left: 15px;
-  width: 78%;
-}
-
 #topStoryColumn img {
   height: 310px;
 }
@@ -239,14 +229,25 @@ main {
   color: #c2d4d7;
 }
 
+.opinionLeft {
+  width: 18%;
+}
+
+.opinionRight {
+  margin-top: 15px;
+  margin-left: 15px;
+  width: 78%;
+}
+
 #opinionColumn article {
   border-bottom: 1px solid #ddd;
 }
 
-#opinionColumn a {
+.opinionRight a {
   color: black;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: bold;
+  line-height: normal;
   text-decoration: none;
 }
 
@@ -255,4 +256,31 @@ main {
   font-weight: bold;
   color: #555;
   margin-top: 5px;
+}
+
+#latestNews {
+  border: solid black 1px;
+}
+
+.latestLeft {
+  width: 40%;
+  height: 90px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.latestRight {
+  width: 60%;
+  padding: 0 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.latestRight a {
+  display: block;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+  line-height: 1.5;
+  font-weight: bold;
 }
