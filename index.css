@@ -492,16 +492,16 @@ main {
   width: 100%;
 }
 
-#thirdSection a, #fourthSection a {
+#thirdSection a, #fourthSection a, #fifthSection a {
   display: block;
   margin-top: 5px;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 1.1;
   font-weight: bold;
   color: black;
 }
 
-#thirdSection a:hover, #fourthSection a:hover  {
+#thirdSection a:hover, #fourthSection a:hover, #fifthSection a:hover  {
   text-decoration: underline #f72210;
 }
 
@@ -510,7 +510,6 @@ main {
 }
 
 #fourthSection {
-  border: solid black 1px;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -519,6 +518,124 @@ main {
   margin-bottom: 30px;
 }
 
-#fifthSection * {
-  border: solid black 1px;
+#fifthSection {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#fifthSection .title {
+  color: #f72210;
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  padding-left: 15px;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: bold;
+  border: none;
+  border-top: 1px solid #d9d9d9;
+}
+
+#fifthSection article {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#fifthSection aside img {
+  margin-left: 15px;
+  height: 90px;
+  width: 30%;
+}
+
+#fifthSection h6 {
+  width: 60%;
+  height: 100%;
+  padding: 10px;
+}
+
+#fifthSection h6 a {
+  color: black;
+  font: bold 17px/21px "Roboto Condensed",sans-serif;
+}
+
+#fifthSection h6 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+#sixthSection {
+  padding: 40px 30px;
+}
+
+#sixthSection h6 {
+  margin: 0;
+}
+
+#sixthSection .title {
+  font: bold 16px/16px "Roboto Condensed",sans-serif;
+  color: #f72210;
+}
+
+.subscribe {
+  padding-top: 30px;
+  padding-bottom: 40px;
+  margin-right: 10px;
+  background-color: #f4f5f6;
+}
+
+#subscribeImgs {
+  position: relative;
+  margin-left: 30px;
+  width: 30%;
+}
+
+.overlap {
+  position: absolute;
+  top: 16px;
+  left: 80px;
+}
+
+#subscribeInfo {
+  width: 65%;
+  padding: 20px 40px;
+}
+
+#subscribeInfo h3, #newsletterInfo h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: bold;
+}
+
+#subscribeInfo p, #newsletterInfo p {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font: 300 15px/21px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#subscribeButton, #signUpButton {
+  padding: 10px 10px 10px 12px;
+  text-decoration: none;
+  background-color: #f72210;
+  color: white;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+}
+
+#subscribeButton:hover {
+  background-color: #de1f0e;
+}
+
+#newsletterImg {
+  width: 50%;
+  height: 298px;
+  background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif) center center / cover no-repeat;
+}
+
+#newsletterInfo {
+  padding: 30px 20px;
+  width: 50%;
+}
+
+footer {
+  border-top: 1px solid #ddd;
 }
