@@ -5,6 +5,11 @@ body * {
 
 body {
   width: 100%;
+  background-color: #f4f5f6;
+}
+
+#wrapper {
+  background-color: white;
 }
 
 header {
@@ -180,13 +185,6 @@ main {
   text-decoration: underline #f72210;
 }
 
-#opinionColumn {
-  position: sticky;
-  top: 0;
-  width: 26%;
-  height: max-content;
-}
-
 .topStory img {
   height: 310px;
 }
@@ -271,6 +269,13 @@ main {
   text-decoration: underline #f72210;
 }
 
+#opinionColumn {
+  position: sticky;
+  top: 0;
+  width: 26%;
+  height: max-content;
+}
+
 .opinionLeft {
   width: 18%;
 }
@@ -331,24 +336,60 @@ main {
 }
 
 #newsletter {
-  border: solid black 1px;
+  width: 85%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  border: solid #e5e5e5 1px;
   background-color: #f4f5f6;
 }
 
 #newsletter span {
+  margin-top: 15px;
   flex: none;
   display: block;
   width: 29px;
   height: 28px;
   background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain no-repeat #f72210;
   margin-right: 10px;
+  margin-left: 10px;
+}
+
+#newsletter p {
+  width: 60%;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  color: black;
+  margin-top: 15px;
+}
+
+.signUpLinks {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#signUpLink {
+  padding: 10px 10px 10px 12px;
+  color: white;
+  text-decoration: none;
+  font: bold 18px/18px "Roboto Condensed",sans-serif;
+  margin-left: 10px;
+  background-color: #666;
+}
+
+#updatePrefLink {
+  display: block;
+  margin-top: 25px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #333;
+  font: bold 15px/15px "Roboto Condensed",sans-serif;
 }
 
 #secondSection {
   margin-top: 20px;
-  padding-right: 25px;
-  padding-left: 25px;
-  border: solid green 1px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 #secondSection img {
@@ -439,4 +480,45 @@ main {
 .rightDesc {
   font: bold 15px/26px "Roboto Condensed",sans-serif;
   color: #f72210;
+}
+
+#thirdSection {
+  margin-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#thirdSection img, #fourthSection img {
+  width: 100%;
+}
+
+#thirdSection a, #fourthSection a {
+  display: block;
+  margin-top: 5px;
+  font-size: 24px;
+  line-height: 1.1;
+  font-weight: bold;
+  color: black;
+}
+
+#thirdSection a:hover, #fourthSection a:hover  {
+  text-decoration: underline #f72210;
+}
+
+#thirdSection p {
+  line-height: 1.3;
+}
+
+#fourthSection {
+  border: solid black 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+#fourthSection article {
+  margin-bottom: 30px;
+}
+
+#fifthSection * {
+  border: solid black 1px;
 }
