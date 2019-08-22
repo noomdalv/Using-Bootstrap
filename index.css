@@ -21,12 +21,6 @@ header {
   background-color: white;
 }
 
-@media (max-width: 992px) {
-  #wrapper {
-    width: 100%;
-  }
-}
-
 #headerLeft {
   width: 25%;
   height: 94px;
@@ -330,6 +324,9 @@ main {
   padding: 0 10px;
   margin-top: 10px;
   margin-bottom: 10px;
+}.latestLeft {
+  width: 20%;
+  height: max-content;
 }
 
 .latestRight a {
@@ -396,6 +393,7 @@ main {
   margin-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
+  border: solid black 1px;
 }
 
 #secondSection img {
@@ -448,11 +446,10 @@ main {
   background-color: #dbdcdd;
 }
 
-
 #secondSection .firstRow {
-  width: 80%;
+  width: 75%;
   margin: 0;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .title {
@@ -578,8 +575,16 @@ main {
   padding: 40px 30px;
 }
 
+.sixthLeft {
+  margin-right: 30px;
+  width: 65%;
+}
+
+.sixthRight {
+  width: 30%;
+}
+
 #sixthSection img {
-  width: 100%;
 }
 
 #sixthSection h6 {
@@ -642,7 +647,7 @@ main {
 
 #newsletterImg {
   width: 50%;
-  height: 298px;
+  height: 296px;
   background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif) center center / cover no-repeat;
 }
 
@@ -742,17 +747,6 @@ footer {
   border: solid blue 1px;
 }
 
-@media (max-width: 992px) {
-  .stickyBar {
-    width: 100%;
-    display: block;
-  }
-
-  header {
-    display: none;
-  }
-}
-
 .stickyLeft svg {
   width: 132px;
   height: 20px;
@@ -776,8 +770,118 @@ footer {
   height: max-content;
 }
 
+#stickySign {
+    color: white;
+}
+
+#stickySubs {
+  background: white;
+  color: red;
+  margin-right: 15px;
+}
+
 .stickyRight i {
   color: #fb9a94;
   font-size: 30px;
   width: max-content;
+}
+
+
+@media (max-width: 992px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  header {
+    display: none;
+  }
+
+  #featuredColumn {
+    position: static;
+    margin-left: 5px;
+    width: 42%;
+  }
+
+  #topStoryColumn {
+    position: static;
+    margin-left: 5px;
+    margin-right: 15px;
+    width: 49%;
+  }
+
+  #opinionColumn {
+    display: block;
+    width: 100%;
+  }
+
+  .moreStories {
+    display: none;
+  }
+
+  .latestLeft {
+    width: 20%;
+    height: max-content;
+  }
+
+  .stickyBar {
+    width: 100%;
+    display: block;
+  }
+
+  #newsletter {
+    width: 60%;
+  }
+
+  #fifthSection {
+    display: none;
+  }
+
+  .sixthLeft {
+    display: block;
+    width: 100%;
+  }
+
+  .sixthRight {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #topStoryColumn {
+    display: block;
+    width: 100%;
+  }
+
+  #featuredColumn {
+    display: block;
+    width: 100%;
+  }
+
+  #secondSection .row1 {
+    display: block;
+    width: 100%;
+  }
+
+  .firstArticle {
+    display: block;
+    width: 100%;
+  }
+
+  .thirdSection {
+    display: block;
+    width: 100%;
+    height: max-content;
+  }
+
+  .fourthSection {
+    display: block;
+    width: 100%;
+    height: max-content;
+  }
+
+  .footerRight {
+    display: block;
+    width: 100%;
+  }
 }
