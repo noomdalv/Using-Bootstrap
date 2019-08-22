@@ -17,7 +17,6 @@ header {
 
 #wrapper {
   width: 88%;
-  border: solid black 1px;
   background-color: white;
 }
 
@@ -393,7 +392,6 @@ main {
   margin-top: 20px;
   padding-right: 15px;
   padding-left: 15px;
-  border: solid black 1px;
 }
 
 #secondSection img {
@@ -739,7 +737,6 @@ footer {
   height: 45px;
   width: 100%;
   z-index: 1;
-  border: solid black 1px;
 }
 
 .stickyWrapper {
