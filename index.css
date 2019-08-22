@@ -8,18 +8,23 @@ body {
   background-color: #f4f5f6;
 }
 
-#wrapper {
-  background-color: white;
-}
-
 header {
   position: relative;
   background: #f72210;
   height: max-content;
+  width: 100%;
 }
 
 #wrapper {
   width: 88%;
+  border: solid black 1px;
+  background-color: white;
+}
+
+@media (max-width: 992px) {
+  #wrapper {
+    width: 100%;
+  }
 }
 
 #headerLeft {
@@ -142,6 +147,7 @@ header {
 
 main {
   margin-top: 10px;
+  width: 100%;
 }
 
 #firstSection {
@@ -425,6 +431,7 @@ main {
 
 #secondSection .firstArticle img {
   height: 372px;
+  width: 100%;
 }
 
 #secondSection .firstArticle a {
@@ -523,6 +530,10 @@ main {
   padding-left: 15px;
 }
 
+#fifthSection img {
+  width: 100%;
+}
+
 #fifthSection .title {
   color: #f72210;
   margin-top: 20px;
@@ -565,6 +576,10 @@ main {
 
 #sixthSection {
   padding: 40px 30px;
+}
+
+#sixthSection img {
+  width: 100%;
 }
 
 #sixthSection h6 {
@@ -638,4 +653,131 @@ main {
 
 footer {
   border-top: 1px solid #ddd;
+  padding: 30px;
+}
+
+#footerWrapper {
+}
+
+.footerLeft {
+  width: 50%;
+  padding-left: 30px;
+}
+
+.footerLeft svg {
+  width: 236px;
+  height: 36px;
+  margin-right: 15px;
+  margin-bottom: 12px;
+  fill: #f72210;
+}
+
+.copyright {
+  font-size: 12px;
+  line-height: 12px;
+  color: #666;
+  margin-bottom: 12px;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+.footerRight {
+  width: 50%;
+  padding-right: 30px;
+}
+
+.footerRight i {
+  color: #666;
+  font-size: 22px;
+  margin: 10px;
+}
+
+.footerRight i:hover {
+  color: #3b5998;
+}
+
+.footerBottom {
+  border-top: 1px solid #ddd;
+}
+
+.footerBottom li {
+  color: #666;
+}
+
+.footerBottom a {
+  padding: 0 12px;
+  border-right: 1px solid #ddd;
+  font-size: 15px;
+  color: #666;
+}
+
+.list-left {
+  width: 60%;
+  padding: 10px 40px;
+}
+
+.list-right {
+  width: 40%;
+  padding: 10px 60px;
+}
+
+.list-right a {
+  padding: 0 10px;
+  line-height: 1;
+}
+
+.stickyBar {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f72210;
+  height: 45px;
+  width: 100%;
+  z-index: 1;
+  border: solid black 1px;
+}
+
+.stickyWrapper {
+  width: 100%;
+  border: solid blue 1px;
+}
+
+@media (max-width: 992px) {
+  .stickyBar {
+    width: 100%;
+    display: block;
+  }
+
+  header {
+    display: none;
+  }
+}
+
+.stickyLeft svg {
+  width: 132px;
+  height: 20px;
+  fill: white;
+}
+
+.stickyLeft {
+  padding-left: 15px;
+  width: 50%;
+}
+
+.stickyRight {
+  padding-right: 15px;
+  width: 50%;
+}
+
+.stickyRight a {
+  text-decoration: none;
+  padding: 6px 12px;
+  font: bold 18px/14px "Roboto Condensed",sans-serif;
+  height: max-content;
+}
+
+.stickyRight i {
+  color: #fb9a94;
+  font-size: 30px;
+  width: max-content;
 }
