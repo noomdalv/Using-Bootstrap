@@ -74,7 +74,7 @@ header {
 }
 
 #whiteNav {
-  height: 50px;
+  height: max-content;
   border-bottom: solid #f4f5f6 2px;
   background: white;
 }
@@ -95,16 +95,20 @@ header {
   list-style: none;
   padding: 0;
   margin: 0;
+  height: max-content;
+  width: 88%;
 }
 
 #whiteNav li {
-  padding: 16px 0;
+  padding: 16px 0px;
+  text-align: center;
+  width: max-content;
 }
 
 #whiteNav a {
   text-decoration: none;
   color: black;
-  padding: 0 31px;
+  padding: 0 30px;
   border-right: solid #d9d9d9 1px;
   font-size: 21px;
   line-height: 20px;
