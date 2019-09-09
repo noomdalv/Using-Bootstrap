@@ -890,7 +890,7 @@ footer {
 
   .sixthLeft {
     width: 100%;
-	margin: 0;
+    margin: 0;
   }
 
   .sixthRight {
@@ -898,19 +898,19 @@ footer {
   }
 
   .subscribe {
-    display: block;    
+    display: block;
     padding-top: 30px;
     padding-bottom: 40px;
     background-color: #f4f5f6;
   }
 
   #subscribeImgs {
-	  margin-right: 80px;
+    margin-right: 80px;
   }
 
   #subscribeImgs img {
-	  margin: 0;
-	  height: 160px;
+    margin: 0;
+    height: 160px;
   }
 
   .overlap {
