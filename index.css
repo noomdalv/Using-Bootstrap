@@ -96,7 +96,7 @@ header {
 }
 
 #whiteNav li {
-  padding: 16px 0px;
+  padding: 16px 0;
   text-align: center;
   width: max-content;
 }
@@ -122,8 +122,9 @@ header {
 #navSearch label {
   position: absolute;
   top: 4px;
-  right: 0px;
-  background: url(https://g.newsweek.com/www/images/icon-search-glass.svg)
+  right: 0;
+  background:
+    url(https://g.newsweek.com/www/images/icon-search-glass.svg)
     center/contain no-repeat white;
   width: 20px;
   height: 20px;
@@ -323,6 +324,7 @@ main {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .latestLeft {
   width: 20%;
   height: max-content;
@@ -352,7 +354,8 @@ main {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
   margin-left: 10px;
@@ -468,7 +471,8 @@ main {
   display: block;
   width: 29px;
   height: 28px;
-  background: url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
+  background:
+    url(https://g.newsweek.com/www/images/logo-n1.svg) center/contain
     no-repeat #f72210;
   margin-right: 10px;
 }
@@ -656,7 +660,8 @@ main {
 #newsletterImg {
   width: 50%;
   height: 296px;
-  background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif)
+  background:
+    url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif)
     center center / cover no-repeat;
 }
 
@@ -921,7 +926,8 @@ footer {
   #newsletterImg {
     width: 50%;
     height: 200px;
-    background: url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif)
+    background:
+      url(https://g.newsweek.com/themes/newsweek/images/subscribe-img2.gif)
       center center / cover no-repeat;
   }
 
