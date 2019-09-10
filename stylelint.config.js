@@ -79,9 +79,11 @@ module.exports = {
     "media-query-list-comma-space-before": "never",
     "no-eol-whitespace": true,
     "no-missing-end-of-source-newline": true,
+	"no-descending-specificity": null,
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
+	"qualified-headings": null,
     "rule-empty-line-before": [ "always-multi-line", {
       except: ["first-nested"],
       ignore: ["after-comment"],

@@ -1,9 +1,6 @@
-body * {
+body {
   box-sizing: border-box;
   font-family: "Roboto Condensed", sans-serif;
-}
-
-body {
   background-color: #f4f5f6;
 }
 
@@ -147,8 +144,6 @@ main {
   width: 100%;
 }
 
-#firstSection {
-}
 
 #firstSection img {
   width: 100%;
