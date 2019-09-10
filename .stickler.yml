@@ -1,0 +1,12 @@
+fixers:
+   enable: true
+linters:
+    stylelint:
+        config: 'stylelint.config.js'
+        fixer: true
+    csslint:
+        ignore: 'box-model,unique-headings,qualified-headings,duplicate-background-images,box-sizing,important,ids,known-properties,order-alphabetical,empty-rules,no-duplicate-selectors'
+files:
+    ignore:
+        - "src/generated/*"
+        - "webroot/bower_components/*"
