@@ -57,6 +57,7 @@ module.exports = {
         "inside-single-line-block",
       ],
     } ],
+	"duplicate-background-images": null,
 	"fallback-colors": null,
     "function-comma-newline-after": "always-multi-line",
     "function-comma-space-after": "always-single-line",
@@ -84,7 +85,7 @@ module.exports = {
     "number-leading-zero": "always",
     "number-no-trailing-zeros": true,
     "property-case": "lower",
-	"qualified-headings": null,
+	"qualified-heading": null,
     "rule-empty-line-before": [ "always-multi-line", {
       except: ["first-nested"],
       ignore: ["after-comment"],

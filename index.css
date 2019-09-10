@@ -135,7 +135,7 @@ header {
   height: 25px;
   font-size: 18px;
   border: none;
-  color: rgba(0, 0, 0, 0.55);
+  color: #000000;
 }
 
 /* MAIN */
@@ -204,7 +204,7 @@ main {
 
 #cultureTravel h6 {
   padding: 10px;
-  color: rgba(3, 3, 3, 0.5);
+  color: #000000;
 }
 
 #cultureTravel h5 {
@@ -215,7 +215,7 @@ main {
 }
 
 #cultureTravel p {
-  color: rgba(39, 39, 39, 0.5);
+  color: #272727;
   margin-bottom: 10px;
 }
 
