@@ -28,7 +28,8 @@ git clone https://github.com/noomdalv/Using-Bootstrap.git
 
 ## 👤 Author
 
-- Github: [@noomdalv](https://github.com/noomdalv/)
+- Github: [@noomdalv](https://github.com/noomdalv/)<br />
+  Email: vladlunasan@gmail.com
 
 ## License
 
